@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+     scroll-behavior: smooth;/*scrools smoothly*/
+    }
+body{
+    background-color: #2a2a2c/*bg color for body*/
+}
+.header{
+    min-height: 100vh;/*height of header*/
+    width: 100%;/*width*/
+    background: #131417;/*bg color for header*/
+    position: relative;
+}
+.navbar{
+    display: flex;/*for horizontal presentation of items*/
+    padding: 20px 50px;
+    align-items: center;/*center alignment*/
+    background: #2A2A2C;
+}
+nav{
+    flex: 1;
+    text-align: right;/*text aligned on right side*/
+}
+.logo img{
+    transition: 0.8s ease-in-out;
+    margin-top: 4px;
+    cursor: pointer;/*css for logo*/
+}
+.logo img:hover{
+    transform: scale(1.12) rotate(360deg);
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{/*styling for ul in header*/
+    display: inline-block;
+    border: 1px solid #308D46;
+    padding: 7px 22px;
+    margin: 10px 15px;
+    box-shadow: 4px 4px 5.5px #131417;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/* First Section */
+.first-section {
+    display: flex;
+    padding: 5% 5% 0;/*padding */
+    background-size: cover;
+    color: #ffffff;
+}
+
+.text-section {
+    width: 40%;
+    padding-right: 10%;
+}
+
+.image-section {
+    width: 40%;
+    padding-left: 10%;
+}
+
+/* Ensure the image does not overflow the section height */
+.image-section img {
+    max-height: 100%;
+    width: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+}
+/* Second Section */
+.second-section {
+    background: linear-gradient(to right, #0b5823, #525654);
+    padding: 5% 5%;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+.footer1 {
+    background-color: #308d46;
+    color: white;
+    height: 10vh;
+    margin: 0px;
+    line-height: 5vh;
+    text-align: center;
+}
+.footer1 p{
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;/*font family*/
+}
